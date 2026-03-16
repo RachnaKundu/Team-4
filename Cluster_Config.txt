@@ -1,0 +1,14 @@
+{
+  "data_security_mode": "DATA_SECURITY_MODE_AUTO",
+  "cluster_name": "cl-migration-dev",
+  "kind": "CLASSIC_PREVIEW",
+  "spark_conf": {
+    "fs.azure.account.key.stmigtestdev01.dfs.core.windows.net": "= FUpXyJbyH1bClvXebH+fUxApQG6DOo6eKn4eAnpzu8+HxJVAzQwLFU2UI3yJq0ZZhrFDLp1YZWlB+AStJB0xSA=="
+  },
+  "runtime_engine": "PHOTON",
+  "spark_version": "17.3.x-scala2.13",
+  "node_type_id": "Standard_DC4as_v5",
+  "autotermination_minutes": 120,
+  "is_single_node": true,
+  "cluster_id": "0311-101144-uc5jvgli"
+}
